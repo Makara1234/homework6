@@ -1,0 +1,249 @@
+@font-face {
+    font-family:Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Start Navbar */
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color:#181818;
+}
+.nav .navbar-menu{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar-menu .logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.nav .navbar-menu .logo h1{
+    font-size: 40px;
+    color: #fff;
+}
+.nav .navbar-menu .logo h1 span{
+    color: yellow;
+}
+.nav .navbar-menu .navbar-item{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav .navbar-menu .navbar-item .list{
+    list-style-type: none;
+    /* margin-left: 10px; */
+}
+.nav .navbar-menu .navbar-item .list .link{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 18px 15px;
+    font-size: 20px;
+    border-right: 1px solid teal;
+    font-family:Poppins-Regular;
+    transition: 1s;
+    color: rgba(239, 233, 233, 0.773);
+    
+}
+.nav .navbar-menu .navbar-item .list .link{
+    color: rgba(239, 233, 233, 0.773);
+}
+.nav .navbar-menu .navbar-item .list .link:visited{
+    color:blue;
+}
+.nav .navbar-menu .navbar-item .list .link:hover{
+    color: teal;
+}
+.nav .navbar-menu .navbar-item .list .link:active{
+    color:red;
+}
+
+/* End Navbar */
+
+/* section1 */
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: teal;
+    display: flex;
+
+}
+.container .col-1{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+.container .col-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .col-2{
+    width: 50%;
+    height: 100%;
+    background-color: #E8BDA1;
+    padding: 50px;
+}
+.container .col-2 h1{
+    color: #181818;
+    font-size: 55px;
+    transform: scaleY(1.3);
+    font-weight: bolder;
+    margin-top: 100px;
+}
+.container .col-2 p{
+    color: #2b2b2b;
+    font-size: 24px;
+    margin: 50px 0px;
+}
+.container .col-2 button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.container .col-2 button:hover{
+    background-color: white;
+    border: white;
+}
+/* section1 */
+
+/* section2*/
+
+.section-2{
+    width: 100%;
+    background-color: #2b2b2b;
+}
+.section-2 .section-2-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.section-2 .section-2-container .child-1{
+    width: 600px;
+    padding: 20px;
+}
+.child-1 .text h1{
+    color: #fff;
+    font-size: 65px;
+    margin-top: 100px;
+}
+.child-1 .text p{
+    font-size: 24px;
+    margin: 40px 0px;
+    color: #dddbdb;
+}
+.child-1 .text button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+}
+.child-1 .text button:hover{
+    background-color: #E8BDA1;
+    border: 2px solid #fff;
+}
+
+.section-2 .section-2-container .child-2{
+    width: 600px;
+    padding: 20px;
+    margin-top: 35px;
+}
+.child-2 .text p{
+    font-size: 24px;
+    margin: 50px 0px;
+    color: #dddbdb;
+}
+.child-2  .text a{
+    width: 150px;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* section2*/
+
+/* section3*/
+.section-3{
+    width: 100%;
+    background-color:#DDDBDB;
+    overflow: hidden;
+
+}
+.gallery h1{
+    width: 550px;
+    text-align: center;
+    padding: 30px 0px;
+    border-bottom: 4px solid black;
+    margin: auto;
+    color:black;
+    font-size: 55px;
+}
+.gallery p{
+    width: 550px;
+    color:black;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+.section-3-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    row-gap: 10px;
+    
+}
+.section-3-container .child-3{
+    width:290px;
+    height: 300px;
+   
+}
+.section-3-container .child-3 .image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.child-3 .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.child-3:hover .image img{
+   transform: scale(1.2);
+}
+
+/* section3*/
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #181818;
+    padding-top: 60px;
+}
+.footer p{
+    width: 500px;
+    margin: auto;
+    color: #dddbdb;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+/* footer */
